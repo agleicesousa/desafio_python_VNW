@@ -1,4 +1,4 @@
-def verificar_nota():
+def sistema_de_notas():
     nota = float(input("Digite a nota: "))
     if 90 <= nota <= 100:
         return "Parabéns, você tirou A!"
@@ -13,4 +13,4 @@ def verificar_nota():
     else:
         return "Estude um pouco mais, você tirou F."
 
-verificar_nota()
+sistema_de_notas()

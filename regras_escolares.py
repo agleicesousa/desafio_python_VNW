@@ -1,4 +1,4 @@
-def verificar_aprovacao():
+def regras_escolares():
     nota = float(input("Digite a nota: "))
     if nota >= 6:
         return "Aprovado"
@@ -7,4 +7,4 @@ def verificar_aprovacao():
     else:
         return "Nota inválida"
 
-verificar_aprovacao()
+regras_escolares()

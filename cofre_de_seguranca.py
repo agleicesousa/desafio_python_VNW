@@ -1,8 +1,8 @@
-def senha_do_cofre():
+def cofre_de_segurança():
     senha = input("Digite a senha: ")
     if senha == "Python123":
         print("Acesso permitido!")
     else:
         print("Acesso negado!")
 
-senha_do_cofre()
+cofre_de_segurança()

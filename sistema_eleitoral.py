@@ -1,4 +1,4 @@
-def verificar_idade():
+def sistema_eleitoral():
     idade = int(input("Digite sua idade: "))
     
     if idade >= 16:
@@ -6,4 +6,4 @@ def verificar_idade():
     else:
         print("Você não pode votar!")
 
-verificar_idade()
+sistema_eleitoral()

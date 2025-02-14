@@ -13,4 +13,4 @@ def verificar_nota():
     else:
         return "Estude um pouco mais, você tirou F."
 
-print(verificar_nota())
+verificar_nota()

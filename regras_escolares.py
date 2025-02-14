@@ -7,4 +7,4 @@ def verificar_aprovacao():
     else:
         return "Nota inválida"
 
-print(verificar_aprovacao())
+verificar_aprovacao()
